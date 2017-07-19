@@ -1,0 +1,97 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,500');
+*{
+	font-family: 'Raleway';
+	background-color: #13232E;
+	color:white;
+}
+#title{
+	text-align: center;
+	color: white;
+	font-size: 45pt;
+}
+
+.di{
+	background-color: lightgrey;
+	border-bottom: 2px solid black;
+	width: 900px;
+	height: auto;
+	transition: all 0.2s ease;
+	padding: 12px;
+	padding-left: 20px;
+	border-radius: 4px;
+	margin-left: 50px;
+	text-align: left;
+	display: inline-block;
+	color: black;
+}
+
+.dinull{
+	background-color: grey;
+	border-bottom: 2px solid black;
+	width: 900px;
+	height: auto;
+	transition: all 0.2s ease;
+	padding: 12px;
+	padding-left: 20px;
+	border-radius: 4px;
+	margin-left: 50px;
+	text-align: left;
+	display: inline-block;
+}
+
+.dier{
+	color: red;
+	background-color: white;
+	border-bottom: 2px solid black;
+	border-radius: 4px;
+	width: 900px;
+	padding:12px;
+	height: auto;
+	padding-left: 20px;
+	margin-left: 50px;
+	text-align: left;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#container,#inputDiv,#buttons{
+	text-align: center;
+	width: 100%;
+}
+
+#all,#live{
+	border:3px solid white;	
+	outline:none;
+	font-size: 12pt;
+	color: white;
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;	
+	margin-bottom: 20px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+#all,#live:active{
+	background-color: 
+}
+
+#cha{
+	border:3px solid white;	
+	outline:none;
+	font-size: 12pt;
+	color: white;
+	width: 400px;
+	height: 40px;
+	border-radius: 10px;	
+	margin-bottom: 40px;
+	padding-left: 20px;
+	margin-top: 40px;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+	text-decoration-color: black;
+}
